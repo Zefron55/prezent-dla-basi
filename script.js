@@ -26,9 +26,9 @@ const IMAGES = [
     '14135.jpg',
     '14134.jpg',
     '14129.jpg',
-    '14127.jpg',
     'romantic_illustration.png'
 ];
+
 
 // ============================================
 // INITIALIZATION
