@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dla Basi - Prezent Urodzinowy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="stars"></div>
+        <div class="hearts-container"></div>
+        <div class="particles"></div>
+    </div>
+
+    <!-- Welcome Screen -->
+    <section class="welcome-screen" id="welcomeScreen">
+        <div class="welcome-content">
+            <h1 class="welcome-title">Dla najpiękniejszej dziewczyny na świecie.</h1>
+            <p class="welcome-subtitle">Przygotowałem dla Ciebie coś wyjątkowego...</p>
+            <button class="open-gift-btn" id="openGiftBtn">Otwórz prezent ❤️</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent" style="display: none;">
+        <!-- Birthday Greeting -->
+        <section class="birthday-greeting">
+            <h2 class="typing-text" id="typingText"></h2>
+        </section>
+
+        <!-- Love Letter -->
+        <section class="love-letter">
+            <div class="letter-content" id="letterContent">
+                <!-- Letter will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Relationship Counter -->
+        <section class="relationship-counter">
+            <h3>Jesteśmy razem już…</h3>
+            <div class="counter-display">
+                <div class="counter-item">
+                    <span class="counter-value" id="days">0</span>
+                    <span class="counter-label">dni</span>
+                </div>
+                <div class="counter-item">
+                    <span class="counter-value" id="hours">0</span>
+                    <span class="counter-label">godzin</span>
+                </div>
+                <div class="counter-item">
+                    <span class="counter-value" id="minutes">0</span>
+                    <span class="counter-label">minut</span>
+                </div>
+                <div class="counter-item">
+                    <span class="counter-value" id="seconds">0</span>
+                    <span class="counter-label">sekund</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery-section">
+            <h3>Nasze wspomnienia</h3>
+            <div class="gallery-container">
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Images will be inserted here -->
+                </div>
+            </div>
+            <div class="slideshow-controls">
+                <button class="prev-btn" id="prevBtn">❮</button>
+                <button class="next-btn" id="nextBtn">❯</button>
+            </div>
+        </section>
+
+        <!-- Closing Message -->
+        <section class="closing-message">
+            <div class="closing-text">
+                <p>Kocham Cię bardziej, niż potrafią opisać jakiekolwiek słowa.</p>
+                <p>I każdego kolejnego dnia będę wybierał właśnie Ciebie.</p>
+                <p>❤️</p>
+            </div>
+            <div class="beating-heart" id="beatingHeart">❤️</div>
+        </section>
+    </main>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <audio id="backgroundMusic" src="background_music.mp3"></audio>
+        <button class="music-toggle" id="musicToggle">🔊</button>
+    </div>
+
+    <!-- Image Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox" id="closeLightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
