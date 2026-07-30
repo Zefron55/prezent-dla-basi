@@ -26,16 +26,16 @@ const LOVE_LETTER = `
 `;
 
 const IMAGES = [
-    'images/14175.jpg',
-    'images/14174.jpg',
-    'images/14171.jpg',
-    'images/14150.jpg',
-    'images/14137.jpg',
-    'images/14135.jpg',
-    'images/14134.jpg',
-    'images/14129.jpg',
-    'images/14127.jpg',
-    'images/romantic_illustration.png'
+    '14175.jpg',
+    '14174.jpg',
+    '14171.jpg',
+    '14150.jpg',
+    '14137.jpg',
+    '14135.jpg',
+    '14134.jpg',
+    '14129.jpg',
+    '14127.jpg',
+    'romantic_illustration.png'
 ];
 
 // ============================================
